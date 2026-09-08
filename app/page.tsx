@@ -9,8 +9,11 @@ export default function Home() {
 
     <Navbar />
    <main className="min-h-screen overflow-hidden bg-black text-white">
-    <section className="flex min-h-screen items-center justify-center px-6 pt-32">
-      <div className='mx-auto max-w-4xl text-center'>
+    <section className="hero-glow relative flex min-h-screen items-center justify-center px-6 pt-32">
+      <div className="absolute left-1/2 top-1/3 h-72 w-72 -translate-x-1/2 rounded-full bg-brand-600/10 blur-3xl ">
+
+      </div>
+      <div className='relative z-10 mx-auto max-w-4xl text-center'>
         <p className='mb-6 inline-flex items-center rounded-full border border-brand-500/30 bg-brand-500/10 px-4 py-2 text-sm font-medium text-brand-300'>
           Desarrollo de software a la medida
         </p>
