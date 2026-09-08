@@ -8,11 +8,11 @@ export default function Home() {
     <>
 
     <Navbar />
-   <main className="min-h-screen bg-black text-white">
-    <section className="flex min-h-screen items-center justify-center px-6">
+   <main className="min-h-screen overflow-hidden bg-black text-white">
+    <section className="flex min-h-screen items-center justify-center px-6 pt-32">
       <div className='mx-auto max-w-4xl text-center'>
-        <p className='mb-4 text-sm font-medium uppercase tracking-[0.3em]'>
-          Desarrollo de Software
+        <p className='mb-6 inline-flex items-center rounded-full border border-brand-500/30 bg-brand-500/10 px-4 py-2 text-sm font-medium text-brand-300'>
+          Desarrollo de software a la medida
         </p>
 
 
