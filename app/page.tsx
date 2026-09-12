@@ -2,6 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
+import Services from '@/components/Services';
 
 export default function Home() {
   return (
@@ -45,7 +46,7 @@ export default function Home() {
       </div>
       
     </section>
-
+      <Services />
    </main>
    </>
   );
