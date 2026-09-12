@@ -3,6 +3,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Services from '@/components/Services';
+import Solutions from '@/components/Solutions';
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
       
     </section>
       <Services />
+      <Solutions />
    </main>
    </>
   );
