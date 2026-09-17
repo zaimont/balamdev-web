@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Solutions(){
     return(
         <section id="soluciones" className="border-t border-zinc-900 bg-black px-6 py-32 ">
-            <div className="mx-auto max-w 7-xl">
+            <div className="mx-auto max-w-7xl">
                 <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-400">
                     Soluciones
                 </p>

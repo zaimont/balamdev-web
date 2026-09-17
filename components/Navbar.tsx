@@ -28,9 +28,9 @@ export default function Navbar(){
                         </a>
                     ))}
 
-                    <Link href="/contacto" className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold transition hover:bg-brand-500">
+                    <a href="mailto:balamdevs@gmail.com" className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold transition hover:bg-brand-500">
                         Hablemos
-                    </Link>
+                    </a>
 
                 </div>
 
