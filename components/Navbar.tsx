@@ -1,10 +1,10 @@
 import Link from "next/link";
 
 const links = [
-    {href: "/servicios", label: "Servicios"},
-    { href: "/Solutions", label: "Soluciones"},
-    { href: "/proyectos", label: "Proyectos"},
-    { href: "/nosotros", label: "Nosotros"}
+    {href: "#servicios", label: "Servicios"},
+    { href: "#soluciones", label: "Soluciones"},
+    { href: "#proyectos", label: "Proyectos"},
+    { href: "#nosotros", label: "Nosotros"}
 
 ]
 
@@ -19,13 +19,13 @@ export default function Navbar(){
                 <div className="hidden items-center gap-8 md:flex">
                     
                     {links.map((link) => (
-                        <Link 
+                        <a 
                         key={link.href} 
                         href={link.href}
                         className="text-sm text-zinc-400 transition hover:text-white"
                         >
                             {link.label}
-                        </Link>
+                        </a>
                     ))}
 
                     <Link href="/contacto" className="rounded-full bg-brand-600 px-5 py-2.5 text-sm font-semibold transition hover:bg-brand-500">
